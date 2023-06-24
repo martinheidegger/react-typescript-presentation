@@ -1,0 +1,19 @@
+{
+  "name": "react-typescript-presentation",
+  "scripts": {
+    "start": "esbuild --format=esm --bundle src/index.* --outdir=dist --sourcemap --watch --serve --servedir=dist --target=es2020",
+    "lint:fix": "prettier . -w"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "esbuild": "^0.18.6",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}

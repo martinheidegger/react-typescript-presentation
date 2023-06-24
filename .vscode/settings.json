@@ -1,0 +1,8 @@
+{
+  "workbench.colorTheme": "Default Light Modern",
+  "workbench.iconTheme": "vs-minimal",
+  "vs-browser.url": "http://localhost:8000",
+  "vs-browser.showStatusBarItem": false,
+  "vs-browser.showMessageDialog": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
